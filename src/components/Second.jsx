@@ -19,11 +19,31 @@ const Second = () => {
         autoplaySpeed:0,
         cssEase:'linear',
         variableWidth:true,
+        responsive:[
+          {
+            breakpoint:1280,
+            settings:{
+              slidesToShow: 3,
+            }
+          },
+          {
+            breakpoint:992,
+            settings:{
+              slidesToShow:2,
+            }
+          },
+          {
+            breakpoint:500,
+            settings:{
+              slidesToShow:1,
+            }
+          }
+        ]
       };
   return (
-    <div className='py-5 opacity-30'>
-      <div className="container py-5">
-        <Slider {...settings} className='pt-2 mt-1 pb-5'>
+    <div className='py-sm-5 opacity-30'>
+      <div className="container py-5 py-md-0 ">
+        <Slider {...settings} className='pt-2 mt-1 pb-sm-5 '>
         <div className='h-74 d-flex justify-content-center align-items-end mx-4'><img src={sliderimg1} alt="img" /></div>
         <div className='h-74 d-flex justify-content-center align-items-end w-120 mx-4'>
             <img src={sliderimg2} alt="img"  />
