@@ -15,17 +15,17 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href="#roadmap" className="text-white">
+            <a href="#roadmap" className="text-white foot">
               Roadmap
             </a>
           </li>
           <li>
-            <a href="#team" className="text-white">
+            <a href="#team" className="text-white foot">
               Team
             </a>
           </li>
           <li>
-            <a href="#about" className="text-white">
+            <a href="#about" className="text-white foot">
               About Us
             </a>
           </li>
