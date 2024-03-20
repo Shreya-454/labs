@@ -5,8 +5,8 @@ const Footer = () => {
   const Dates = new Date()
   const year = Dates.getFullYear()
   return (
-    <div>
-      <div className="container d-flex flex-column align-items-center pb-1">
+    <div className="position-relative overflow-hidden">
+      <div className="container d-flex flex-column align-items-center pb-1 ">
         <img src={logo} alt="logo" />
         <ul className="ps-0 d-flex gap-4 font-robotoflex lh-18 fs-16 opacity-70 mb-0 mt-3 pt-1 ">
           <li>
@@ -57,6 +57,8 @@ const Footer = () => {
       <div className="contianer">
         <p className=" font-robotoflex fs-14 text-white lh-16 opacity-60 mb-0 text-center py-4">© {year} 248 Labs. All rights reserved</p>
       </div>
+      <div className="foot-ellipse1"></div>
+      <div className="foot-ellipse2"></div>
     </div>
   );
 };
