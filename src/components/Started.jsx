@@ -95,6 +95,7 @@ const Started = () => {
                           className="w-100 inputbg input-layout" 
                           value={formData.name}
                           onChange={handleChange}
+                          autoComplete="true"
                         />
                         {formErrors.name && (
                           <p className="text-danger pt-1 font-robotoflex">{formErrors.name}</p>
@@ -130,6 +131,7 @@ const Started = () => {
                             name="number"
                             placeholder="+12 5858526478"
                             id="number"
+                            autoComplete="true"
                           value={formData.number}
                           onChange={handleChange}
                           className={`${formErrors.number ? "error" : ""} inputbg input-layout w-100`}
@@ -151,6 +153,7 @@ const Started = () => {
                           type="email"
                           id="Email"
                           name="email"
+                          autoComplete="true"
                           onChange={handleChange}
                           placeholder="Park@458@Gmail.com"
                             className="inputbg input-layout w-100"
@@ -169,7 +172,7 @@ const Started = () => {
                       ref={checkboxRef}
                     />
                     <label
-                      htmlFor="policy"
+                      htmlFor="checkbox"
                       className="text-white font-robotoflex fs-18 lh-27  ms-3"
                     >
                       By sending this form I confirm that I have read and accept
