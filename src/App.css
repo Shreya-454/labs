@@ -250,6 +250,7 @@
   mask-composite: exclude;
   display: none;
   transition: all 500ms linear;
+  z-index: -1;
 }
 .aboutcard:hover.cardborder-mask::before{
   display: block;
@@ -270,7 +271,7 @@ transition: all 300ms linear;
   bottom:-145%;
 }
 .aboutcard:hover{
-  transform: translateY(-35px);
+  transform: translateY(-35px) !important;
 }
 .bg-orangegradient{
   background: linear-gradient(151.6deg, rgba(212, 20, 90, 0.2) 1.85%, rgba(251, 176, 59, 0.2) 98.12%) !important;
@@ -767,7 +768,6 @@ left: 0;
       padding:40.48px 41px;
     }
   }
-
 @media (min-width:992px) {
   :root {
     /* font-size */
