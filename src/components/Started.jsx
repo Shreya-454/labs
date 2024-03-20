@@ -21,7 +21,7 @@ const Started = () => {
                           type="text"
                           id="name"
                           placeholder="Park Seijun"
-                          className="w-100 inputbg input-layout"
+                          className="w-100 inputbg input-layout" autoComplete="true"
                         />
                       </div>
                     </div>
@@ -33,6 +33,7 @@ const Started = () => {
                           id="lastname"
                           placeholder="Sejiun"
                           className="w-100 inputbg input-layout"
+                          autoComplete="true"
                         />
                       </div>
                     </div>
@@ -46,6 +47,7 @@ const Started = () => {
                             placeholder="+12 5858526478"
                             id="number"
                           className="inputbg input-layout w-100"
+                          autoComplete="true"
                           />
                         </div>
                       </div>
@@ -60,6 +62,7 @@ const Started = () => {
                         <input
                           type="email"
                           id="Email"
+                          autoComplete="true"
                           placeholder="Park@458@Gmail.com"
                             className="inputbg input-layout w-100"
                           />
