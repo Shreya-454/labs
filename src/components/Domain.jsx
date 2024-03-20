@@ -1,6 +1,5 @@
 import React from "react";
 import domainimg from "../assets/images/domainimg.webp";
-import ellipse from "../assets/images/pink-ellipse.webp";
 const Domain = () => {
   return (
     <div className="py-md-5 overflow-x-clip">

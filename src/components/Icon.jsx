@@ -12,7 +12,7 @@ export const Play = () => {
         cy="38.3456"
         r="37.7616"
         fill="white"
-        fill-opacity="0.41"
+        fillOpacity="0.41"
       />
       <path
         d="M51.8164 37.48C52.4831 37.8649 52.4831 38.8272 51.8164 39.2121L32.0976 50.5968C31.4309 50.9817 30.5976 50.5005 30.5976 49.7307L30.5976 26.9614C30.5976 26.1916 31.4309 25.7105 32.0976 26.0954L51.8164 37.48Z"
@@ -27,8 +27,8 @@ export const Play = () => {
           y2="41.9989"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D4145A" />
-          <stop offset="1" stop-color="#FBB03B" />
+          <stop stopColor="#D4145A" />
+          <stop offset="1" stopColor="#FBB03B" />
         </linearGradient>
       </defs>
     </svg>

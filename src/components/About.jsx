@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='py-md-5 position-relative overflow-x-clip '>
+    <div className='py-md-5 position-relative overflow-x-clip ' id="about">
       <div className="container py-md-5 pt-3 pb-0">
         <div className="row mt-3 pt-2 pb-md-5 mb-1">
             <div className="col-md-6" data-aos="fade-right">

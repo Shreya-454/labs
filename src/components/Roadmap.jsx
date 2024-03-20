@@ -6,7 +6,7 @@ import { Star } from "./Icon";
 
 const Roadmap = () => {
   return (
-    <div className="roadmap-bg py-lg-5 mt-md-5 position-relative z-1 overflow-x-clip">
+    <div className="roadmap-bg py-lg-5 mt-md-5 position-relative z-1 overflow-x-clip" id="roadmap">
       <div className="roadmap-ellipse "></div>
       <div className="container py-md-5 mt-5">
         <div className="d-flex justify-content-center mb-3 mt-4">

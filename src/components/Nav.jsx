@@ -13,7 +13,7 @@ const Nav = () => {
       <nav className=" py-3 position-relative z-3">
           <div className="container">
             <div className=" d-flex align-items-center justify-content-between">
-              <a href="#">
+              <a href="#home">
                 <img
                   src={logo}
                   alt="Logo"
@@ -23,7 +23,7 @@ const Nav = () => {
                 <li onClick={() => setshow(!show)}>
                   <a
                     className=" text-white font-robotoflex fs-16 fw-normal lh-24 nav_line position-relative head"
-                    href="#create"
+                    href="#about"
                   >
                About Us
                   </a>
@@ -31,7 +31,7 @@ const Nav = () => {
                 <li onClick={() => setshow(!show)}>
                   <a
                     className=" text-white font-robotoflex fs-16 fw-normal lh-24  nav_line position-relative head"
-                    href="#recycling"
+                    href="#team"
                   >
                 Our Team
                   </a>
@@ -39,7 +39,7 @@ const Nav = () => {
                 <li onClick={() => setshow(!show)}>
                   <a
                     className=" text-white font-robotoflex fs-16 fw-normal lh-24  nav_line position-relative head"
-                    href="#Faq"
+                    href="#roadmap"
                   >
                Roadmap
                   </a>

@@ -123,7 +123,7 @@ const Team = () => {
     </div>
   ));
   return (
-    <div className="py-md-5 position-relative overflow-x-clip z-1">
+    <div className="py-md-5 position-relative overflow-x-clip z-1" id="team">
       <div className="team-ellipse1 z-n1"></div>
       <div className="team-ellipse2 z-n1"></div>
       <div className="container pt-2">

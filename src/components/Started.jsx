@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+// import React, { useRef, useState } from "react";
 import toplayer from "../assets/images/formtoplayer.webp";
 import bottomlayer from "../assets/images/formbottonlayer.webp";
 const Started = () => {
@@ -20,6 +20,7 @@ const Started = () => {
                         <input
                           type="text"
                           id="name"
+                          placeholder="Park Seijun"
                           className="w-100 inputbg input-layout"
                         />
                       </div>
@@ -30,6 +31,7 @@ const Started = () => {
                         <input
                           type="text"
                           id="lastname"
+                          placeholder="Sejiun"
                           className="w-100 inputbg input-layout"
                         />
                       </div>
@@ -41,6 +43,7 @@ const Started = () => {
                           <div className="w-100">
                           <input
                             type="text"
+                            placeholder="+12 5858526478"
                             id="number"
                           className="inputbg input-layout w-100"
                           />
@@ -57,6 +60,7 @@ const Started = () => {
                         <input
                           type="email"
                           id="Email"
+                          placeholder="Park@458@Gmail.com"
                             className="inputbg input-layout w-100"
                           />
                       </div>

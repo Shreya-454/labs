@@ -4,7 +4,7 @@ import triangle from '../assets/images/headtriangle.webp'
 const Hero = () => {
     
   return (
-    <div className='herobg min-vh-100 d-flex flex-column position-relative'>
+    <div className='herobg min-vh-100 d-flex flex-column position-relative' id='home'>
       <Nav/>
       <div className='flex-grow-1 align-items-center d-flex'>
           <div className="container " data-aos="fade-up">

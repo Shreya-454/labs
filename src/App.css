@@ -124,7 +124,6 @@
 .text-grey{
   color: #FFFFFFB2 !important;
 }
-
 /* Hero */
 .herobg{
   background-image: url("./assets/images/Herobg.webp");
@@ -136,7 +135,7 @@
 .triangle{
   position: absolute;
   bottom: 0;
-  right: 46.5%;
+  right: 42%;
 }
 /* nav */
 .nav_line::after {
@@ -179,13 +178,13 @@
   background: linear-gradient(151.6deg, #D4145A 1.85%, #FBB03B 98.12%);
   padding: 12px 32px;
   border-radius: 261px;
-  border: 2px solid transparent;
+  border: none;
+  outline: 2px solid transparent;
   transition: all 300ms linear;
 }
 .nav-btn:hover{
   background: linear-gradient(151.6deg, #FBB03B 1.85%, #D4145A 98.12%);
-  border: 2px solid white;
-
+  outline: 2px solid white !important;
 }
 /* second */
 .h-74{
@@ -203,7 +202,6 @@
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text
-
 }
 .gradient-border-mask {
   position: relative;
@@ -212,7 +210,6 @@
 .badge-padding{
   padding: 10px 19px;
 }
-
 .gradient-border-mask::before {
   content: "";
   position: absolute;
@@ -300,11 +297,9 @@ transition: all 300ms linear;
   top: -20px;
   left: -25%;
   z-index: -1;
-
 }
 /* level */
 .levelbg{
-  /* height: 765px; */
 background-image: url(./assets//images/Play.webp);
 background-position: center;
 background-repeat: no-repeat;
@@ -318,7 +313,6 @@ background-size: cover;}
   border-radius: 30px !important;
   overflow: hidden; 
 }
-
 .levelbox::after{
   content: "";
   position: absolute;
@@ -342,21 +336,23 @@ background-size: cover;}
   color: white;
   background: linear-gradient(151.6deg, #D4145A 1.85%, #FBB03B 98.12%);
   border-radius: 261px;
-  border: 2px solid transparent;
+  border: none;
+  outline: 2px solid transparent;
   transition: all 300ms linear;
 }
 .gradient-btn:hover{
   background: linear-gradient(151.6deg, #FBB03B 1.85%, #D4145A 98.12%);
-  border: 2px solid white;
+  outline: 2px solid white;
 }
   .smallbtnpadding{
-    padding: 16px 16px;
+    padding: 16px 32px;
   }
 
 .border-btn{
   border: none;
   background: transparent;
   color: white;
+  transition: all 300ms linear;
 }
 .border-btn:hover{
   background: linear-gradient(151.6deg, #D4145A 1.85%, #FBB03B 98.12%);
@@ -525,24 +521,8 @@ input[type="checkbox"]{
 .roadcard:hover::after{
   bottom: -35%;
 }
-.roadline{
-  width: 1px !important;
- background: linear-gradient(90deg, #EC7646 1.56%, rgba(255, 255, 255, 0) 94.87%);
- position: absolute;
- left: 2%;
- padding: 0 !important;
- bottom:5% ;
- top: 2%;
-}
 .roadrow{
   position:relative
-}
-.roadrow::after{
-  content: url("./assets/images/roadmaplogo.webp");
-  position: absolute;
-  top: 0;
-  left: 43.5%;
-  display: none;
 }
 .roadmap-ellipse{
   width: 358.08px;
@@ -571,7 +551,6 @@ input[type="checkbox"]{
   border-radius: 30px !important;
   overflow: hidden; 
 }
-
 .formcard::after{
   content: "";
   position: absolute;
@@ -647,6 +626,24 @@ transition: all 300ms linear
 }
 .icons:hover{
   transform: scale(120%);
+}
+.foot{
+  position: relative;
+}
+.foot::after{
+position: absolute;
+bottom: 0;
+background-color: white;
+right: 100%;
+left: 100%;
+height: 2px;
+border-radius: 15px;
+content: "";
+transition: all 300ms linear;
+}
+.foot:hover::after{
+  right: 0;
+left: 0;
 }
 /* preloader */
 .animation {
@@ -762,18 +759,14 @@ transition: all 300ms linear
       --lh-7xl: 72.4px;
       --lh-8xl: 170.98px;
     }
+    .triangle{
+      right: 45%;
+    }
     .w-md-50{width: 50%;}
     .formcard{
-      max-width: 726px;
       padding:40.48px 41px;
-      background-color: #0000001A;
-      backdrop-filter: blur(39.2px);
-      position: relative;
-      border-radius: 30px !important;
-      overflow: hidden; 
     }
   }
-
 
 @media (min-width:992px) {
   :root {
