@@ -71,7 +71,7 @@ const Started = () => {
     document.body.classList.add("overflow-hidden");
   } else {
     document.body.classList.remove("overflow-hidden");
-  }
+  }   
   return (
     <div className=" pt-md-5 mt-1 pb-4 position-relative">
       <div className="mt-4 formbg py-5">
@@ -116,8 +116,8 @@ const Started = () => {
                           onChange={handleChange}
                           // className={formErrors.name ? "error" : ""}
                         />
-                        {formErrors.name && (
-                          <p className="text-danger pt-1 font-robotoflex">{formErrors.name}</p>
+                        {formErrors.lastname && (
+                          <p className="text-danger pt-1 font-robotoflex">{formErrors.lastname}</p>
                         )}
                       </div>
                     </div>
