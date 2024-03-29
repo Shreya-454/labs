@@ -11,9 +11,11 @@ const Licensable = () => {
           <div className="container position-relative z-1">
             <div className='licenseellipse d-none d-md-block'></div>
           <img src={licenseimg} alt="img" className='w-100' data-aos="zoom-in" />
-          <div className="playbtn d-none d-sm-block">
-            <Play/>
-          </div>
+          <a href="https://youtu.be/-Ry1iZNLYxw" target="_blank" rel='noreferrer'>
+            <div className="playbtn d-none d-sm-block">
+              <Play/>
+            </div>
+          </a>
           </div>
           <div className="container pb-5">
            <p className='fs-16 text-white font-robotoflex lh-24 opacity-70 fw-normal text-center mb-0 mt-4' data-aos="zoom-in"> Illustrated With Original Artwork And A Cinematic Score, Destined Not Only For Mobile And Desktop Gaming But <span className='d-block mt-1 pt-2'>Also For Film And Television, Events, Merchandising, And Partnerships.</span></p>
