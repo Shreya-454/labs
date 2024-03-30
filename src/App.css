@@ -522,6 +522,10 @@ input[type="checkbox"]{
 .roadcard:hover::after{
   bottom: -35%;
 }
+.roadtext{
+  top: 0;
+  right: -7%;
+}
 .roadrow{
   position:relative
 }

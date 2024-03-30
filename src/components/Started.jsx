@@ -78,7 +78,7 @@ const Started = () => {
         <div className="container py-md-5 my-5">
           <div className="row align-items-center py-5 mb-4">
             <div className="col-lg-8 pt-1 pb-5 pb-lg-0">
-              <div className="formcard" data-aos="zoom-in">
+              <div className="formcard z-3" data-aos="zoom-in">
                 <h2 className="text-white font-robotoflex fs-52 lh-62 mb-4 text-center text-lg-start">
                   Get updated with us
                 </h2>

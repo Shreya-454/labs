@@ -105,6 +105,7 @@ const Roadmap = () => {
           </div>
         
         </div>
+        <p className=" fs-187 lh-224 text-white opacity-6 fw-bold position-absolute roadtext d-none d-sm-block">Roadmap</p>
       </div>
   );
 };
